@@ -84,6 +84,7 @@ figure img:hover {
     opacity: 0.5;
 }
 
+/* Changement du texte en noir en hover */
 figure:hover h2 {
     color: var(--black);
 }
