@@ -74,6 +74,20 @@ figure {
     position: relative;
 }
 
+/* Image */
+figure img {
+    filter: brightness(80%);
+    transition: 0.5s;
+}
+
+figure img:hover {
+    opacity: 0.5;
+}
+
+figure:hover h2 {
+    color: var(--black);
+}
+
 /* Pictures caption */
 figcaption,
 h1 {
@@ -92,16 +106,28 @@ figcaption h2{
     bottom: 0.5em;
     left: 0.5em;
     color: var(--white);
+    transition: 0.5s;
 }
 
 footer {
     background-color: var(--black);
     color: var(--white);
     font-family: 'Alata', sans-serif;
+    margin-top: 10em;
 }
 
 footer li {
     display: inline;
+}
+
+.layer_1,
+.layer_2 {
+    width: 80%;
+    padding: 1em 2em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* font-family: 'Alata', sans-serif;
