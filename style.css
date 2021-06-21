@@ -11,7 +11,7 @@
 }
 
 header {
-    background-image: url("../Loopstudios-landing-page/images/desktop/image-hero.jpg");
+    background-image: url("./images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     color: var(--white);
     font-family: 'Alata', sans-serif;
@@ -29,6 +29,7 @@ section,
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 /* See all button */
@@ -69,7 +70,7 @@ article:nth-of-type(2) {
 
 /* Delimitation Gallery */
 figure {
-    margin: 1.75em;
+    margin: 1em;
     position: relative;
 }
 
