@@ -1,0 +1,25 @@
+@mixin breakpoint-pc {
+    @media screen and (min-width: $width-pc) {
+      @content;
+    }
+}
+
+@mixin breakpoint-phone {
+    @media screen and (max-width: $width-phone) {
+      @content;
+    }
+}
+
+// Placeholder
+%margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+%uppercase {
+    text-transform: uppercase;
+}
+
+%linkreset {
+    text-decoration: none;
+}

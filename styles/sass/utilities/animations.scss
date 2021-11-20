@@ -1,0 +1,59 @@
+@keyframes navin {
+    0% {
+        clip-path: circle(0% at 0 100%);
+    }
+    100% {
+        clip-path: circle(150% at 0 100%);
+    }
+}
+
+@keyframes navout {
+    0% {
+        clip-path: circle(150% at 0 100%);
+    }
+    100% {
+        clip-path: circle(0% at 0 100%);
+    }
+}
+
+@keyframes card-shine {
+    100% {
+        left: 125%;
+    }
+}
+
+@keyframes icon-hover {
+    0% {
+        transform: rotateZ(0);
+    }
+    30% {
+        transform: rotateZ(10deg);
+    }
+    60% {
+        transform: rotateZ(-10deg);
+    }
+
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+@keyframes card-slide-mobile {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes card-slide-desktop {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
